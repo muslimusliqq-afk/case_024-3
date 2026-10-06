@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0c100f">
+  <meta name="description" content="CASE 024. A personal investigation.">
+  <title>CASE 024 — Restricted access</title>
+  <link rel="icon" href="assets/case-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=3-042554-final">
+  <script defer src="quest.js?v=3-042554-final"></script>
+  <script defer src="app.js?v=3-042554-final"></script>
+</head>
+<body>
+  <!-- Ты реально думал, что я второй раз оставлю тебе код здесь? Смотри глубже. -->
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="shell" id="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="CASE 024"><span class="brand-mark">✳</span> CASE <strong>024</strong></a>
+      <div class="system-status"><span class="signal"></span><span id="connection">LOCAL SESSION / ACTIVE</span></div>
+    </header>
+    <div class="workspace">
+      <aside class="sidebar" aria-label="Ход расследования">
+        <div class="small-label">INVESTIGATION INDEX</div>
+        <nav id="stages"></nav>
+        <div class="sidebar-bottom"><div class="small-label">CASE REFERENCE</div><p>024 / FRANCESCO</p><span>PERSONAL ARCHIVE<br>RESTRICTED ACCESS</span></div>
+      </aside>
+      <main id="main" tabindex="-1"></main>
+    </div>
+    <footer><span>CASE 024 · PRIVATE INVESTIGATION</span><span id="footer-status">AWAITING AUTHORIZATION</span></footer>
+  </div>
+  <div id="modal-root"></div>
+  <noscript>Для расследования включи JavaScript в браузере.</noscript>
+</body>
+</html>
